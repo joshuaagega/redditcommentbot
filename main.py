@@ -7,7 +7,7 @@ reddit = praw.Reddit(
     client_secret=os.environ["CLIENT_SECRET"],
     username=os.environ["REDDIT_USER"],
     password=os.environ["REDDIT_PASS"],
-    user_agent="comment_app by u/" + os.environ["USERNAME"]
+    user_agent="comment_app by u/" + os.environ["REDDIT_USER"]
 )
 
 subreddits = ["example_subreddit"]  # Replace with your actual subreddit(s)
