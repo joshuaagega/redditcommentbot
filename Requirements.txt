@@ -1,4 +1,0 @@
-# requirements.txt
-flask
-praw
-python-dotenv        # <- if you call load_dotenv()
