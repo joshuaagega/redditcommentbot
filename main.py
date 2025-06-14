@@ -25,25 +25,18 @@ reddit = praw.Reddit(
     user_agent="comment_app by u/" + os.environ["REDDIT_USER"]
 )
 
-subreddits = ["ebonynut","CamgirlsPics","hentaihubx"]  # Replace with your actual subreddit(s)
-comment_text = """
-🔥 Here are a few crazier options — some of these girls are online right now and seriously into wild stuff:
+subreddits = ["ebonynut", "CamgirlsPics", "hentaihubx"] # Replace with your actual subreddit(s)
 
-💦 **Wild & Fetish Chat**
+comments = ["""🔥 Here are a few crazier options ...
+🌙 **Late Night Chat (Tested & Real)**
 
 - THOTs who flirt and send nudes: [Mature Flirts Nearby](https://ebonynut.click/MatureFlirtsNearby)
 - Into trans girls? This one’s solid: [Transgender Flirters](https://ebonynut.click/TransgenderFlirters)
 - Freaky Latina girls going all out: [Flirt With Me Now](https://ebonynut.click/FlirtWithMeNow)
 - Straight-to-the-point dirty dating: [Your Online Matches](https://ebonynut.click/YourOnlineMatches)
 - For the real sexting lovers: [Flirt With Me Now D](https://ebonynut.click/FlirtWithMeNowD)
-- Strictly for nasty hookups: [Mature Flirts Near](https://ebonynut.click/MatureFlirtsNear)
-
-🌙 **Late Night Chat (Tested & Real)**
-
-- Best chat I’ve had all week: [Flirt With Me](https://ebonynut.click/FlirtWeMe)
-- Honestly, better than hanging with the boys: [Cindy’s Matches](https://ebonynut.click/Cindy-Matchs)
-"""
-
+- Strictly for nasty hookups: [Mature Flirts Near](https://ebonynut.click/MatureFlirtsNear)"""]
+rate_sleep = 10   
 already_commented = set()
 
 while True:
