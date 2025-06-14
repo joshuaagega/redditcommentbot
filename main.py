@@ -5,6 +5,7 @@ from threading import Thread
 from flask import Flask
 import praw
 
+app = Flask(__name__)
 @app.route("/")
 def home():
     return "Bot is running."
