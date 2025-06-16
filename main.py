@@ -25,7 +25,7 @@ reddit = praw.Reddit(
     user_agent="comment_app by u/" + os.environ["REDDIT_USER"]
 )
 
-subreddits = ["ebonynut", "CamgirlsPics", "hentaihubx"] # Replace with your actual subreddit(s)
+subreddits = ["ebonynut", "CamgirlsPics", "hentaihubx", "contenusexyfrancaise", "tattedphysique", "Deutschehentai"] # Replace with your actual subreddit(s)
 
 comments = ["""🔥 Here are a few crazier options ...
 🌙 **Late Night Chat (Tested & Real)**
