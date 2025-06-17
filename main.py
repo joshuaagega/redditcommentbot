@@ -35,7 +35,7 @@ comments = ["""🔥 Here are a few crazier options ...
 - Freaky Latina girls going all out: [Lit Latinas](https://ebonynut.click/LitLatinz)
 - Dirty dating, straight to the point: [MatureFlirtsNearby](ebonynut.click/MatureFlirtsNearby2)
 - Straight-to-the-point dirty dating: [Your Online Matches](https://ebonynut.click/YourOnlineMatches)
-- For the real sexting lovers: [Flirt With Me Now D](https://ebonynut.click/FlirtWithMeNowD)
+- For the real sexting lovers: [Flirt With Me Now D](https://ebonynut.click/FlirtWeMe)
 - Strictly for nasty hookups: [Mature Flirts Near](https://ebonynut.click/MatureFlirtsNear)"""]
 rate_sleep = 10   
 already_commented = set()
