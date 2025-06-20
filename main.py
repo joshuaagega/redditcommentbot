@@ -27,14 +27,20 @@ reddit = praw.Reddit(
 
 subreddits = ["ebonynut", "CamgirlsPics", "hentaihubx", "contenusexyfrancaise", "tattedphysique", "Deutschehentai"] # Replace with your actual subreddit(s)
 
-comments = ["""🔥 Here are a few crazier options ...
-🌙 **Late Night Chat (Tested & Real)**
+comments = ["""🔥 Craving something wild? These are 100% active:
+🌙 **Lonely Night? This Worked for Me 👇**
 
-- THOTs who flirt and send nudes: [Mature Flirts Nearby](https://ebonynut.click/MatureFlirtsNearby)
-- Into trans girls? This one’s solid: [Transgender Flirters](https://ebonynut.click/TransgenderFlirters)
-- Freaky Latina girls going all out: [Lit Latinas](https://ebonynut.click/LitLatinz)
-- Dirty dating, straight to the point: [MatureFlirtsNearby](ebonynut.click/MatureFlirtsNearby2)
-- Straight-to-the-point dirty dating: [Your Online Matches](https://ebonynut.click/YourOnlineMatches)
+- 🍪 THOTs who flirt and send nudes: [Mature Flirts Nearby](https://ebonynut.click/MatureFlirtsNearby)
+- 👏🏿 Into trans girls? This one’s solid: [Transgender Flirters](https://ebonynut.click/TransgenderFlirters)
+- 🍑 Freaky Latina girls going all out: [Lit Latinas](https://ebonynut.click/LitLatinz)
+- 💯 Dirty dating, straight to the point: [MatureFlirtsNearby](https://ebonynut.click/Cupidfeel)
+- 💦 Straight-to-the-point dirty dating: [Your Online Matches](https://ebonynut.click/YourOnlineMatches)
+- 🔥 Tired of fake chats? These girls are 100% real and local: [MilfDatersAU](https://ebonynut.click/MilfDatersAU)
+- 💋 Swipe, match, and meet MILFs who are online now 👇 [Cupidfeel](https://ebonynut.click/Cupidfeel)
+- 🚨 No sign-up games. Just real girls ready to hook up nearby: [MeetNHook](https://ebonynut.click/MeetNHook)
+- 👀 Scroll if you're taken. Single? She's already waiting: [OzzieFlirtZone2](https://ebonynut.click/OzzieFlirtZone2)
+- 💦 Late-night cravings? She's online and wants to chat now: [SearchingForDates](https://ebonynut.click/SearchingForDates)
+- 📍 Girls near you are posting spicy invites here: [YourLocalDate](https://ebonynut.click/YourLocalDate)
 - For the real sexting lovers: [Flirt With Me Now D](https://ebonynut.click/FlirtWeMe)
 - Strictly for nasty hookups: [Mature Flirts Near](https://ebonynut.click/MatureFlirtsNear)"""]
 rate_sleep = 10   
