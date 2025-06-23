@@ -4,19 +4,23 @@ import random
 from threading import Thread
 from flask import Flask
 import praw
+from datetime import datetime
+import pytz
 
+# Flask app setup for Railway
 app = Flask(__name__)
+
 @app.route("/")
 def home():
     return "Bot is running."
 
 def run_web():
-    # Railway sets the port number in the env var PORT
     port = int(os.environ.get("PORT", 8080))
     app.run(host="0.0.0.0", port=port)
 
 Thread(target=run_web).start()
 
+# Reddit auth
 reddit = praw.Reddit(
     client_id=os.environ["CLIENT_ID"],
     client_secret=os.environ["CLIENT_SECRET"],
@@ -25,36 +29,63 @@ reddit = praw.Reddit(
     user_agent="comment_app by u/" + os.environ["REDDIT_USER"]
 )
 
-subreddits = ["ebonynut", "CamgirlsPics", "hentaihubx", "contenusexyfrancaise", "tattedphysique", "Deutschehentai"] # Replace with your actual subreddit(s)
+# Target subreddits
+subreddits = ["ebonynut", "CamgirlsPics", "hentaihubx", "contenusexyfrancaise", "tattedphysique", "Deutschehentai"]
 
-comments = ["""🔥 Craving something wild? These are 100% active:
-🌙 **Lonely Night? This Worked for Me 👇**
+# Timezone
+timezone = pytz.timezone("Africa/Nairobi")
+
+# Comment sets
+morning_comments = [
+    "☀️ Start your day off spicy: [Lit Latinas](https://ebonynut.click/LitLatinz)",
+    "🌄 Wake up with local MILFs: [MilfDatersAU](https://ebonynut.click/MilfDatersAU)",
+    "🚿 Morning shower thoughts? [Transgender Flirters](https://ebonynut.click/TransgenderFlirters)"
+]
+
+afternoon_comments = [
+    "🍑 Midday cravings? This helped: [MeetNHook](https://ebonynut.click/MeetNHook)",
+    "💦 No distractions. Just hookups: [MatureFlirtsNearby](https://ebonynut.click/Cupidfeel)",
+    "📍 Girls nearby are online now: [YourLocalDate](https://ebonynut.click/YourLocalDate)"
+]
+
+evening_comments = [
+    """🌙 **Lonely Night? This Worked for Me 👇**
 
 - 🍪 THOTs who flirt and send nudes: [Mature Flirts Nearby](https://ebonynut.click/MatureFlirtsNearby)
 - 👏🏿 Into trans girls? This one’s solid: [Transgender Flirters](https://ebonynut.click/TransgenderFlirters)
 - 🍑 Freaky Latina girls going all out: [Lit Latinas](https://ebonynut.click/LitLatinz)
 - 💯 Dirty dating, straight to the point: [MatureFlirtsNearby](https://ebonynut.click/Cupidfeel)
-- 💦 Straight-to-the-point dirty dating: [Your Online Matches](https://ebonynut.click/YourOnlineMatches)
-- 🔥 Tired of fake chats? These girls are 100% real and local: [MilfDatersAU](https://ebonynut.click/MilfDatersAU)
-- 💋 Swipe, match, and meet MILFs who are online now 👇 [Cupidfeel](https://ebonynut.click/Cupidfeel)
-- 🚨 No sign-up games. Just real girls ready to hook up nearby: [MeetNHook](https://ebonynut.click/MeetNHook)
-- 👀 Scroll if you're taken. Single? She's already waiting: [OzzieFlirtZone2](https://ebonynut.click/OzzieFlirtZone2)
-- 💦 Late-night cravings? She's online and wants to chat now: [SearchingForDates](https://ebonynut.click/SearchingForDates)
-- 📍 Girls near you are posting spicy invites here: [YourLocalDate](https://ebonynut.click/YourLocalDate)
-- For the real sexting lovers: [Flirt With Me Now D](https://ebonynut.click/FlirtWeMe)
-- Strictly for nasty hookups: [Mature Flirts Near](https://ebonynut.click/MatureFlirtsNear)"""]
-rate_sleep = 10   
+- 💋 Swipe, match, and meet MILFs: [Cupidfeel](https://ebonynut.click/Cupidfeel)
+- 🚨 No sign-up games: [MeetNHook](https://ebonynut.click/MeetNHook)
+- 👀 Scroll if you're taken. If not: [OzzieFlirtZone2](https://ebonynut.click/OzzieFlirtZone2)
+- 💦 Late-night craving? [SearchingForDates](https://ebonynut.click/SearchingForDates)
+- 🔞 Sexting lovers only: [Flirt With Me Now D](https://ebonynut.click/FlirtWeMe)"""
+]
+
+# Determine which comment set to use
+def get_comment_set():
+    current_hour = datetime.now(timezone).hour
+    if 5 <= current_hour < 12:
+        return morning_comments
+    elif 12 <= current_hour < 18:
+        return afternoon_comments
+    else:
+        return evening_comments
+
+rate_sleep = 10
 already_commented = set()
 
+# Main loop
 while True:
     for sub in subreddits:
         for post in reddit.subreddit(sub).new(limit=10):
             if post.id not in already_commented:
                 try:
-                    post.reply(random.choice(comments))
+                    selected_comment = random.choice(get_comment_set())
+                    post.reply(selected_comment)
                     already_commented.add(post.id)
                     print(f"✅ Replied to: {post.title}")
                     time.sleep(rate_sleep)
                 except Exception as e:
                     print(f"❌ Error on {post.id}: {e}")
-    time.sleep(60)   # wait 1 min before checking the subs again
+    time.sleep(60)  # Re-check after 1 min
