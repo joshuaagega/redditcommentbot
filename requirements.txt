@@ -1,3 +1,4 @@
 flask
 praw
+pytz
 python-dotenv      # only if you call load_dotenv()
