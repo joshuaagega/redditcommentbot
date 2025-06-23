@@ -43,9 +43,12 @@ morning_comments = [
 ]
 
 afternoon_comments = [
-    "🍑 Midday cravings? This helped: [MeetNHook](https://ebonynut.click/MeetNHook)",
-    "💦 No distractions. Just hookups: [MatureFlirtsNearby](https://ebonynut.click/Cupidfeel)",
-    "📍 Girls nearby are online now: [YourLocalDate](https://ebonynut.click/YourLocalDate)"
+   "Tired of boring chats? 🔥 Talk dirty with real people who are actually online now: https://ebonynut.click/NaughtyTalk",
+    "Just found this wild cam site – these girls don't hold back 😳 https://ebonynut.click/Cams",
+    "No games, just hookups. Locals are literally waiting right now 👇 https://ebonynut.click/WannaHookup",
+    "Into MILFs? This place is packed with hot moms ready to meet 👀 https://ebonynut.click/MilfDaters",
+    "If you’re just here to smash, this is where it’s at: https://ebonynut.click/Instabang",
+    "Swipe, match, and go crazy tonight. Fling is full of real hookups 🔞 https://ebonynut.click/Fling"
 ]
 
 evening_comments = [
