@@ -44,7 +44,7 @@ morning_comments = [
 
 afternoon_comments = [
    "Tired of boring chats? 🔥 Talk dirty with real people who are actually online now: https://ebonynut.click/MilfDatersCA",
-    "Just found this wild cam site – these girls don't hold back 😳 hhttps://ebonynut.click/MilfDatersCA",
+    "Just found this wild cam site – these girls don't hold back 😳 https://ebonynut.click/MilfDatersCA",
     "No games, just hookups. Locals are literally waiting right now 👇 https://ebonynut.click/MilfDatersCA",
     "Into MILFs? This place is packed with hot moms ready to meet 👀 https://ebonynut.click/MilfDaters",
     "If you’re just here to smash, this is where it’s at: https://ebonynut.click/Instabang",
