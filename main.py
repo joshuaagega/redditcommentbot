@@ -37,15 +37,15 @@ timezone = pytz.timezone("Africa/Nairobi")
 
 # Comment sets
 morning_comments = [
-    "☀️ Start your day off spicy: [Lit Latinas](https://ebonynut.click/LitLatinz)",
-    "🌄 Wake up with local MILFs: [MilfDatersAU](https://ebonynut.click/MilfDatersAU)",
-    "🚿 Morning shower thoughts? [Transgender Flirters](https://ebonynut.click/TransgenderFlirters)"
+    "☀️ Start your day off spicy: [Lit Latinas](https://ebonynut.click/SearchingForDatesCA)",
+    "🌄 Wake up with local MILFs: [MilfDatersAU](https://ebonynut.click/SearchingForDatesCA)",
+    "🚿 Morning shower thoughts? [Transgender Flirters](https://ebonynut.click/SearchingForDatesCA)"
 ]
 
 afternoon_comments = [
-   "Tired of boring chats? 🔥 Talk dirty with real people who are actually online now: https://ebonynut.click/NaughtyTalk",
-    "Just found this wild cam site – these girls don't hold back 😳 https://ebonynut.click/Cams",
-    "No games, just hookups. Locals are literally waiting right now 👇 https://ebonynut.click/WannaHookup",
+   "Tired of boring chats? 🔥 Talk dirty with real people who are actually online now: https://ebonynut.click/MilfDatersCA",
+    "Just found this wild cam site – these girls don't hold back 😳 hhttps://ebonynut.click/MilfDatersCA",
+    "No games, just hookups. Locals are literally waiting right now 👇 https://ebonynut.click/MilfDatersCA",
     "Into MILFs? This place is packed with hot moms ready to meet 👀 https://ebonynut.click/MilfDaters",
     "If you’re just here to smash, this is where it’s at: https://ebonynut.click/Instabang",
     "Swipe, match, and go crazy tonight. Fling is full of real hookups 🔞 https://ebonynut.click/Fling"
@@ -54,15 +54,15 @@ afternoon_comments = [
 evening_comments = [
     """🌙 **Lonely Night? This Worked for Me 👇**
 
-- 🍪 THOTs who flirt and send nudes: [Mature Flirts Nearby](https://ebonynut.click/MatureFlirtsNearby)
-- 👏🏿 Into trans girls? This one’s solid: [Transgender Flirters](https://ebonynut.click/TransgenderFlirters)
-- 🍑 Freaky Latina girls going all out: [Lit Latinas](https://ebonynut.click/LitLatinz)
-- 💯 Dirty dating, straight to the point: [MatureFlirtsNearby](https://ebonynut.click/Cupidfeel)
+- 🍪 THOTs who flirt and send nudes: [Mature Flirts Nearby](https://ebonynut.click/MilfDatersCA)
+- 👏🏿 Into trans girls? This one’s solid: [Transgender Flirters](https://ebonynut.click/SearchingForDatesCA)
+- 🍑 Freaky Latina girls going all out: [Lit Latinas](https://ebonynut.click/MilfDatersCA)
+- 💯 Dirty dating, straight to the point: [MatureFlirtsNearby](https://ebonynut.click/SearchingForDatesCA)
 - 💋 Swipe, match, and meet MILFs: [Cupidfeel](https://ebonynut.click/Cupidfeel)
-- 🚨 No sign-up games: [MeetNHook](https://ebonynut.click/MeetNHook)
-- 👀 Scroll if you're taken. If not: [OzzieFlirtZone2](https://ebonynut.click/OzzieFlirtZone2)
-- 💦 Late-night craving? [SearchingForDates](https://ebonynut.click/SearchingForDates)
-- 🔞 Sexting lovers only: [Flirt With Me Now D](https://ebonynut.click/FlirtWeMe)"""
+- 🚨 No sign-up games: [MeetNHook](https://ebonynut.click/SearchingForDatesCA)
+- 👀 Scroll if you're taken. If not: [OzzieFlirtZone2](https://ebonynut.click/MilfDatersCA)
+- 💦 Late-night craving? [SearchingForDates](https://ebonynut.click/SearchingForDatesCA)
+- 🔞 Sexting lovers only: [Flirt With Me Now D](https://ebonynut.click/SearchingForDatesCA)"""
 ]
 
 # Determine which comment set to use
