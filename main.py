@@ -38,17 +38,17 @@ timezone = pytz.timezone("Africa/Nairobi")
 # Comment sets
 morning_comments = [
     "☀️ Start your day off spicy: [Lit Latinas](https://ebonynut.click/SearchingForDatesCA)",
-    "🌄 Wake up with local MILFs: [MilfDatersAU](https://ebonynut.click/SearchingForDatesCA)",
+    "🌄 Wake up with local MILFs: [MilfDatersAU](https://ebonynut.click/Youdates)",
     "🚿 Morning shower thoughts? [Transgender Flirters](https://ebonynut.click/SearchingForDatesCA)"
 ]
 
 afternoon_comments = [
    "Tired of boring chats? 🔥 Talk dirty with real people who are actually online now: https://ebonynut.click/MilfDatersCA",
-    "Just found this wild cam site – these girls don't hold back 😳 https://ebonynut.click/MilfDatersCA",
+    "Just found this wild cam site – these girls don't hold back 😳 https://ebonynut.click/Youdates",
     "No games, just hookups. Locals are literally waiting right now 👇 https://ebonynut.click/MilfDatersCA",
-    "Into MILFs? This place is packed with hot moms ready to meet 👀 https://ebonynut.click/MilfDaters",
-    "If you’re just here to smash, this is where it’s at: https://ebonynut.click/Instabang",
-    "Swipe, match, and go crazy tonight. Fling is full of real hookups 🔞 https://ebonynut.click/Fling"
+    "Into MILFs? This place is packed with hot moms ready to meet 👀 https://ebonynut.click/Youdates",
+    "If you’re just here to smash, this is where it’s at: https://ebonynut.click/Youdates",
+    "Swipe, match, and go crazy tonight. Fling is full of real hookups 🔞 https://ebonynut.click/Youdates"
 ]
 
 evening_comments = [
