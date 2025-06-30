@@ -54,14 +54,14 @@ afternoon_comments = [
 evening_comments = [
     """🌙 **Lonely Night? This Worked for Me 👇**
 
-- 🍪 THOTs who flirt and send nudes: [Mature Flirts Nearby](https://ebonynut.click/MilfDatersCA)
+- 🍪 THOTs who flirt and send nudes: [Mature Flirts Nearby](https://ebonynut.click/Youdates)
 - 👏🏿 Into trans girls? This one’s solid: [Transgender Flirters](https://ebonynut.click/SearchingForDatesCA)
-- 🍑 Freaky Latina girls going all out: [Lit Latinas](https://ebonynut.click/MilfDatersCA)
+- 🍑 Freaky Latina girls going all out: [Lit Latinas](https://ebonynut.click/Youdates)
 - 💯 Dirty dating, straight to the point: [MatureFlirtsNearby](https://ebonynut.click/SearchingForDatesCA)
-- 💋 Swipe, match, and meet MILFs: [Cupidfeel](https://ebonynut.click/Cupidfeel)
+- 💋 Swipe, match, and meet MILFs: [Cupidfeel](https://ebonynut.click/Youdates)
 - 🚨 No sign-up games: [MeetNHook](https://ebonynut.click/SearchingForDatesCA)
 - 👀 Scroll if you're taken. If not: [OzzieFlirtZone2](https://ebonynut.click/MilfDatersCA)
-- 💦 Late-night craving? [SearchingForDates](https://ebonynut.click/SearchingForDatesCA)
+- 💦 Late-night craving? [SearchingForDates](https://ebonynut.click/Youdates)
 - 🔞 Sexting lovers only: [Flirt With Me Now D](https://ebonynut.click/SearchingForDatesCA)"""
 ]
 
